@@ -6,8 +6,9 @@
 
 For this assignment I have chosen to train an LDA model on American television sitcom´s Friends full script (10 seasons and 236 episodes). It is one of the  most popular TV series in history and I am a huge fan of it (I have seen the full series at least 3 times). Therefore, it is very interesting to test whether the conversations of the characters can be used to find meaningful topics. If so, then it can be used to define what Friends were talking most about, which does not have much of scientific value, but could be used for other sociological purposes. My investigation is purely exploratory. I will investigate the following questions:
 
-QUESTION 1: Can LDA model find coherent and semantically meaningful topics Friends are talking about?
-QUESTION 2: Can the dialogues/monologues of different characters be easily compared and does it reflect relevant topics according to a character? 
+__QUESTION 1:__ Can LDA model find coherent and semantically meaningful topics Friends are talking about?
+
+__QUESTION 2:__ Can the dialogues/monologues of different characters be easily compared and does it reflect relevant topics according to a character? 
 
 
 A to Q1: The visualization of the full script shows that it is possible to distinguish between relatively separate topics (the bubbles do not overlap too much and there is some distance between them). Most of the topics are rather specific (the majority of bubbles are quite small), probably reflecting  specific episodes or seasons. Nevertheless, as expected, most frequent terms are friend, baby, wedding, coffee, date, sex, which to some extent reflect the most crucial topics in the show.
