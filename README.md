@@ -26,10 +26,10 @@ __A to Q2:__ The overall structure of the separate characters´ visualizations (
 Frequent terms for each character:
 - Chandler: wedding, game, sleep, work, relationship
 - Ross: date, baby, dad, love, wedding
-- Rachel: ross, baby, coffee
+- Rachel: ross, baby, coffee, purse
 - Phoebe: mom, grandmother, fun
 - Monica: baby, problem, cookie, potato, wedding
-- Joye: girl, butt, sex, night, pheebs, woman
+- Joey: girl, butt, sex, night, pheebs, woman
 
 
 __Models Metrics:__
