@@ -17,7 +17,7 @@ __QUESTION 2:__ Can the dialogues/monologues of different characters be easily c
 
 __Answers__
 
-__A to Q1:__ The visualization of the full script shows that it is possible to distinguish between relatively separate topics (the bubbles do not overlap too much and there is some distance between them). Most of the topics are rather specific (the majority of bubbles are quite small), probably reflecting  specific episodes or seasons. Nevertheless, as expected, most frequent terms are friend, baby, wedding, coffee, date, sex, which to some extent reflect the most crucial topics in the show.
+__A to Q1:__ The visualization of the full script shows that it is possible to distinguish between relatively separate topics (the bubbles do not overlap too much and there is some distance between them). Most of the topics are rather specific (the majority of bubbles are quite small), probably reflecting  specific episodes or seasons. Nevertheless, as expected, most frequent terms are ´friend´, ´baby´, ´wedding´, ´coffee´, ´date´, ´sex´, which roughly reflect the most crucial topics in the show.
 
 
 
