@@ -79,7 +79,8 @@ Overall, the models perform not too badly. If invested more time in data cleanin
 - Clone the repository, type: git clone https://github.com/Rutatu/lang_analytics_-assignment5.git
 - Navigate to the newly cloned repo
 - Navigate to the data folder, type cd data
-- unzip the file in data folder, type: unzip FRIENDS_Script.zip -d FRIENDS_TV_script
+- create an empty folder in data folder named ´FRIENDS_TV_script´, so you can save unzipped files there
+- unzip the file to a newly created folder, type: unzip FRIENDS_Script.zip -d FRIENDS_TV_script
 - Create virtual environment with its dependencies, type: bash create_lda_venv.sh
 - Activate the environment, type: source ./lda/bin/activate
 - To run the code, type: python LDA.py -f data/FRIENDS_TV_script
