@@ -72,7 +72,7 @@ __Limitations:__
 - the comparison of characters is very basic and shallow. It could have been more informative if chosen different, more advanced methods
 
 
-Overall, the models perform not too badly. Every character has 1-2 broad topics which are more general and a lot of specific one, which reflect the characters´ personalities very well. However, it is not always easy to prescribe them to a specific topic category. If invested more time in data cleaning and more thoughtful metrics choice, it could perform pretty well.
+Overall, the models perform not too badly. Every character has 1-2 broad topics which are more general and a lot of specific ones, which reflect the characters´ personalities very well. However, it is not always easy to prescribe them to a specific topic category. If invested more time in data cleaning and more thoughtful metrics choice, it could perform pretty well.
 
 
 ## Instructions to run the code
