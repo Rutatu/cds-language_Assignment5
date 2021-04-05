@@ -22,13 +22,14 @@ __A to Q1:__ The visualization of the full script shows that it is possible to d
 
 
 __A to Q2:__ The overall structure of the separate characters´ visualizations (size, position of the bubbles) is similar to the full script visualization, thus we can say that it does distinguish meaningful topics to some extent and they tend to be pretty specific. Interestingly, most frequent terms for each character represent them pretty well (you must have seen the episodes many times to say that).
+
 Frequent terms for each character:
-	Chandler: wedding, game, sleep, work, relationship
-	Ross: date, baby, dad, love, wedding
-	Rachel: ross, baby, coffee
-	Phoebe: mom, grandmother, fun
-	Monica: baby, problem, cookie, potato, wedding
-	Joye: girl, butt, sex, night, pheebs, woman
+	- Chandler: wedding, game, sleep, work, relationship
+	- Ross: date, baby, dad, love, wedding
+	- Rachel: ross, baby, coffee
+	- Phoebe: mom, grandmother, fun
+	- Monica: baby, problem, cookie, potato, wedding
+	- Joye: girl, butt, sex, night, pheebs, woman
 
 
 __Models Metrics:__
