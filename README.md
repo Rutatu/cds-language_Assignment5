@@ -7,9 +7,9 @@
 For this assignment I have chosen to train an LDA model on American television sitcom ´Friends´ full script (10 seasons and 236 episodes). The files of full TV series script was taken from kaggle: https://www.kaggle.com/blessondensil294/friends-tv-series-screenplay-script
 
 
-It is one of the  most popular TV series in history and I am a huge fan of it (I have seen the full series at least 3 times). Therefore, it is very interesting to test whether the conversations of the characters can be used to find meaningful topics. If so, then it can be used to define what Friends were talking most about, which does not have much of scientific value, but could be used for other sociological purposes. My investigation is purely exploratory. I will investigate the following questions:
+It is one of the  most popular TV series in history and I am a huge fan of it (I have seen the full series at least 3 times). Therefore, it is very interesting to test whether the conversations of the characters can be used to find meaningful topics. If so, then it can be used to define what Friends´ characters were talking about the most, which does not have much of scientific value, but could be used for other sociological purposes. My investigation is purely exploratory. I will investigate the following questions:
 
-__QUESTION 1:__ Can LDA model find coherent and semantically meaningful topics Friends are talking about?
+__QUESTION 1:__ Can LDA model find coherent and semantically meaningful topics Friends´ caharacters are talking about?
 
 __QUESTION 2:__ Can the dialogues/monologues of different characters be easily compared and does it reflect relevant topics according to a character? 
 
