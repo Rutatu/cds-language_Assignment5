@@ -76,7 +76,7 @@ Overall, the models perform not too badly. If invested more time in data cleanin
 
 - Open terminal on worker02
 - Navigate to the environment where you want to clone this repository, e.g. type: cd cds-language
-- Clone the repository, type: git clone 
+- Clone the repository, type: git clone https://github.com/Rutatu/lang_analytics_-assignment5.git
 - Navigate to the newly cloned repo
 - Navigate to the data folder, type cd data
 - unzip the file in data folder, type: unzip FRIENDS_Script.zip -d FRIENDS_TV_script
