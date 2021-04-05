@@ -1,7 +1,7 @@
 # lang_analytics_-assignment5
 
 
-## Assignment 5: LDA model on American television sitcom´s Friends full script
+## Assignment 5: LDA topic modeling: exploration of topics in American television sitcom 'Friends'
 
 
 For this assignment I have chosen to train an LDA model on American television sitcom´s Friends full script (10 seasons and 236 episodes). It is one of the  most popular TV series in history and I am a huge fan of it (I have seen the full series at least 3 times). Therefore, it is very interesting to test whether the conversations of the characters can be used to find meaningful topics. If so, then it can be used to define what Friends were talking most about, which does not have much of scientific value, but could be used for other sociological purposes. My investigation is purely exploratory. I will investigate the following questions:
