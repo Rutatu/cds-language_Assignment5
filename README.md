@@ -84,10 +84,12 @@ Overall, the models perform not too badly. Every character has 1-2 broad topics 
 - Navigate to the environment where you want to clone this repository, e.g. type: cd cds-language
 - Clone the repository, type: git clone https://github.com/Rutatu/lang_analytics_-assignment5.git
 - Navigate to the newly cloned repo
-- Navigate to the data folder, type cd data
-- create an empty folder in ´data´ folder named ´FRIENDS_TV_script´, so you can save unzipped files there
+- Navigate to the data folder, type: cd data
+- create an empty folder in ´data´ folder named ´FRIENDS_TV_script´, so you can save unzipped files there, type: mkdir FRIENDS_TV_script
 - unzip the file to a newly created folder, type: unzip FRIENDS_Script.zip -d FRIENDS_TV_script
 - Navigate back to the cloned repo directory (outside ´data´ folder)
 - Create virtual environment with its dependencies, type: bash create_lda_venv.sh
 - Activate the environment, type: source ./lda/bin/activate
 - To run the code, type: python LDA.py -f data/FRIENDS_TV_script
+
+I hope it worked!
