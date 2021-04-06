@@ -4,6 +4,8 @@
 ## Assignment 5: LDA topic modeling: exploration of topics in American television sitcom 'Friends'
 
 
+__ABOUT THE ASSIGNMENT__
+
 For this assignment I have chosen to train an LDA model on American television sitcom ´Friends´ full script (10 seasons and 236 episodes). The files of full TV series script was taken from kaggle: https://www.kaggle.com/blessondensil294/friends-tv-series-screenplay-script
 
 
@@ -15,7 +17,7 @@ __QUESTION 2:__ Can the dialogues/monologues of different characters be easily c
 
 
 
-__Answers__
+__ANSWERS__
 
 __A to Q1:__ The pyLDAvis graph of the full script shows that it is possible to distinguish between relatively separate topics (the bubbles do not overlap too much and there is some distance between them). Most of the topics are rather specific (the majority of bubbles are quite small), probably reflecting  specific episodes or seasons. Nevertheless, as expected, most frequent terms are ´friend´, ´baby´, ´wedding´, ´coffee´, ´date´, ´sex´, which roughly reflect the most crucial topics in the show.
 
@@ -24,12 +26,12 @@ __A to Q1:__ The pyLDAvis graph of the full script shows that it is possible to 
 __A to Q2:__ The overall structure of the separate characters´  pyLDAvis graphs (size, position of the bubbles) is similar to the full script graph. Thus, we can say that it does distinguish meaningful topics, but they tend to be pretty specific. Interestingly, most frequent terms for each character represent them pretty well (you must have seen the episodes many times to say that).
 
 Most relevant frequent terms for each character:
-- Chandler: wedding, game, sleep, work, relationship
-- Ross: date, baby, dad, love, wedding
-- Rachel: ross, baby, coffee, purse
-- Phoebe: mom, grandmother, fun
-- Monica: baby, problem, cookie, potato, wedding
-- Joey: girl, butt, sex, night, pheebs, woman
+- __Chandler:__ wedding, game, sleep, work, relationship
+- __Ross:__ date, baby, dad, love, wedding
+- __Rachel:__ ross, baby, coffee, purse
+- __Phoebe:__ mom, grandmother, fun
+- __Monica:__ baby, problem, cookie, potato, wedding
+- __Joey:__ girl, butt, sex, night, pheebs, woman
 
 
 __Models Metrics:__
