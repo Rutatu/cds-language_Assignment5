@@ -23,7 +23,7 @@ __A to Q1:__ The pyLDAvis graph of the full script shows that it is possible to 
 
 __A to Q2:__ The overall structure of the separate characters´  pyLDAvis graphs (size, position of the bubbles) is similar to the full script graph. Thus, we can say that it does distinguish meaningful topics, but they tend to be pretty specific. Interestingly, most frequent terms for each character represent them pretty well (you must have seen the episodes many times to say that).
 
-Frequent terms for each character:
+Most relevant frequent terms for each character:
 - Chandler: wedding, game, sleep, work, relationship
 - Ross: date, baby, dad, love, wedding
 - Rachel: ross, baby, coffee, purse
