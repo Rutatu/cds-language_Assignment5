@@ -17,11 +17,11 @@ __QUESTION 2:__ Can the dialogues/monologues of different characters be easily c
 
 __Answers__
 
-__A to Q1:__ The visualization of the full script shows that it is possible to distinguish between relatively separate topics (the bubbles do not overlap too much and there is some distance between them). Most of the topics are rather specific (the majority of bubbles are quite small), probably reflecting  specific episodes or seasons. Nevertheless, as expected, most frequent terms are ´friend´, ´baby´, ´wedding´, ´coffee´, ´date´, ´sex´, which roughly reflect the most crucial topics in the show.
+__A to Q1:__ The pyLDAvis graph of the full script shows that it is possible to distinguish between relatively separate topics (the bubbles do not overlap too much and there is some distance between them). Most of the topics are rather specific (the majority of bubbles are quite small), probably reflecting  specific episodes or seasons. Nevertheless, as expected, most frequent terms are ´friend´, ´baby´, ´wedding´, ´coffee´, ´date´, ´sex´, which roughly reflect the most crucial topics in the show.
 
 
 
-__A to Q2:__ The overall structure of the separate characters´ visualizations (size, position of the bubbles) is similar to the full script visualization, thus we can say that it does distinguish meaningful topics to some extent and they tend to be pretty specific. Interestingly, most frequent terms for each character represent them pretty well (you must have seen the episodes many times to say that).
+__A to Q2:__ The overall structure of the separate characters´  pyLDAvis graphs (size, position of the bubbles) is similar to the full script graph. Thus, we can say that it does distinguish meaningful topics, but they tend to be pretty specific. Interestingly, most frequent terms for each character represent them pretty well (you must have seen the episodes many times to say that).
 
 Frequent terms for each character:
 - Chandler: wedding, game, sleep, work, relationship
@@ -72,7 +72,7 @@ __Limitations:__
 - the comparison of characters is very basic and shallow. It could have been more informative if chosen different, more advanced methods
 
 
-Overall, the models perform not too badly. Every character has 1-2 broad topics which are more general and a lot of specific ones, which reflect the characters´ personalities very well. However, it is not always easy to prescribe them to a specific topic category. If invested more time in data cleaning and more thoughtful metrics choice, it could perform pretty well.
+Overall, the models perform not too badly. Every character has 1-2 broad topics which are more general and a lot of specific ones, which reflect the characters´ personalities very well. However, it is not always easy to prescribe them to a specific topic category. If invested more time in data cleaning and more thoughtful metrics choice, it has a potential to perform pretty well.
 
 
 ## Instructions to run the code
