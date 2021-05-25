@@ -7,7 +7,7 @@
 
 
 
-## LDA topic modeling: exploration of topics in American television sitcom 'Friends'
+# LDA topic modeling: exploration of topics in American television sitcom 'Friends'
 
 ## About the research question
 This assignment is Class Assignment 5. For this assignment I have chosen to train an LDA model on American television sitcom FRIENDS full script (10 seasons and 236 episodes). TV show FRIENDS is one of the  most popular TV series in history and I am a huge fan of it (I have seen the full series at least 3 times). Therefore, it is very interesting to test whether the conversations of the characters can be used to find meaningful topics. If so, then it can be used to define what the characters were talking about the most, which could be used for sociological purposes. This investigation is purely exploratory. I will investigate the following questions:
@@ -98,13 +98,9 @@ I hope it worked!
 
 
 
-    
-
-
-
-
 ## Results
-# Answers to research questions
+
+## Answers to research questions
 
 __A to Q1:__ The pyLDAvis graph of the full script shows that it is possible to distinguish between relatively separate topics (the bubbles do not overlap too much and there is some distance between them). Most of the topics are rather specific (the majority of bubbles are quite small), probably reflecting  specific episodes or seasons. Nevertheless, as expected, most frequent terms are ´friend´, ´baby´, ´wedding´, ´coffee´, ´date´, ´sex´, which roughly reflect the most crucial topics in the show.
 
@@ -119,7 +115,7 @@ Most relevant frequent terms for each character:
 - __Joey:__ girl, butt, sex, night, pheebs, woman
 
 
-# Models Metrics
+## Models Metrics
 
 Full script
 Perplexity: - 10.55
@@ -153,12 +149,12 @@ The best model based on perplexity is Full script model. If we compare only char
 The best model based on coherence is Joey´s and Phoebe´s models.
 However, the differences between scores are very small and, thus, it does not tell us much.
 
-# Limitations
+## Limitations
 - only some of the semantically meaningless words were filtered out from the script. Filtering out more of them could lead to better performance.
 - in this script the number of chunks in preprocessing stage: 30, min_count of bigrams: 10 and number of topics in lda model: 15 were set to be identical for each character. Each character would need further investigation and it would make more sense to set individualized metrics.
 - the comparison of characters is very basic and shallow. It could have been more informative if chosen different, more advanced methods
 
-# Results summary
+## Results summary
 Overall, the models perform not too badly but still far from very good. Every character has 1-2 broad topics which are more general and a lot of specific ones, which reflect the characters´ personalities very well. However, it is not always easy to prescribe them to a specific topic category and they tend to overlap. If invested more time in data cleaning and more thoughtful metrics choice, it has a potential to perform pretty well.
 
 
