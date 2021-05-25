@@ -30,8 +30,8 @@ The problem of the task relates to uncovering hidden structure in a collection o
 | data/FRIENDS_Script.zip | Archived input txt files of FRIENDS TV show screenplay scripts |
 | output/ | Folder containing CSV files produced by the script |
 | output/topics_full.csv | Keywords and other metrics for each topic of the full script LDA model |
-| output/topics_character.csv | Keywords and other metrics for each topic of the each FRIENDS main character´s LDA model (6 files) |
-| src | Folder containing the script |
+| output/topics_character.csv | Keywords and other metrics for each topic of each FRIENDS main character´s LDA model (6 files) |
+| src/ | Folder containing the script |
 | src/LDA.py | The topic modeling script |
 | utils/ | Folder containing utility script for the project |
 | utils/lda_utils.py | utility script used for data preprocessing |
@@ -55,10 +55,12 @@ Data can be found here: https://www.kaggle.com/blessondensil294/friends-tv-serie
 
 
 __Data structure__
+
 All the txt files must be located in 'FRIENDS_TV_script' folder located in 'data' folder.
 
 
 __Data preprocessing__
+
 The Screenplay Scripts and Dialogue were preprocessed before training LDA models. Preprocessing involved the following steps:
 -  separating staging directions from conversations and returning only conversations
 -  filtering out frequent but semantically meaningless words
@@ -90,10 +92,10 @@ Set-up:
 #1 Open terminal on worker02 or locally
 #2 Navigate to the environment where you want to clone this repository
 #3 Clone the repository
-$ git clone https://github.com/Rutatu/cds-visual_Assignment_5.git 
+$ git clone https://github.com/Rutatu/cds-language_Assignment_5.git 
 
 #4 Navigate to the newly cloned repo
-$ cd cds-visual_Assignment_5
+$ cd cds-language_Assignment_5
 
 #5 Create virtual environment with its dependencies and activate it
 $ bash create_lda_venv.sh
