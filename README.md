@@ -11,7 +11,7 @@
 
 
 ## About the research question
-This assignment is Class Assignment 5 - applying unsupervised machine learning to text data. For this assignment I have chosen to train an LDA model on American television sitcom FRIENDS full script (10 seasons and 236 episodes). TV show FRIENDS is one of the  most popular TV series in history and I am a huge fan of it (I have seen the full series at least 3 times). Therefore, it is very interesting to test whether the conversations of the characters can be used to find meaningful topics. If so, then it can be used to define what the characters were talking about the most, which could be used for sociological purposes. This investigation is purely exploratory. I will investigate the following questions:
+This assignment is Class Assignment 5 - applying unsupervised machine learning to text data. For this assignment I have chosen to train an LDA model on American television sitcom FRIENDS full script (10 seasons and 228 episodes). TV show FRIENDS is one of the  most popular TV series in history and I am a huge fan of it (I have seen the full series at least 3 times). Therefore, it is very interesting to test whether the conversations of the characters can be used to find meaningful topics. If so, then it can be used to define what the characters were talking about the most, which could be used for sociological purposes. This investigation is purely exploratory. I will investigate the following questions:
 
 __QUESTION 1:__ Can LDA model find coherent and semantically meaningful topics FRIENDS´ caharacters are talking about?
 
