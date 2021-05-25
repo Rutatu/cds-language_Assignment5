@@ -21,6 +21,32 @@ __QUESTION 2:__ Can the dialogues/monologues of different characters be easily c
 ## Methods
 The problem of the task relates to investigating the topics of the TV series FRIENDS. To address this problem, firstly, I have preprocessed the full screenplay script of FRIENDS TV series and prepared it for the topic modeling task (see Data section below). Secondly, I have used Latent Dirichlet Allocation (LDA) algorithm to perform topic modeling using ```Gensim``` package (lda_utils utility functions). I trained LDA model on full TV show´s script and on filtered dialogue lines from each character separately, which resulted in 7 LDA models. Each model was looking for 15 topics. The script outputs ```pyLDAvis``` topic graphs as html files for the full script and each character separately. Also, it saves CSV files for full script and each character to further investigate the topics and their keywords, prints perplexity and coherence metrics for each model to the terminal.
 
+
+## Repository contents
+
+| File | Description |
+| --- | --- |
+| data/ | Folder containing input files for the script |
+| data/FRIENDS_Script.zip | Archived input txt files of FRIENDS TV show screenplay scripts |
+| output/ | Folder containing CSV files produced by the script |
+| output/topics_full.csv | Keywords and other metrics for each topic of the full script LDA model |
+| output/topics_character.csv | Keywords and other metrics for each topic of the each FRIENDS main character´s LDA model (6 files) |
+| src | Folder containing the script |
+| src/LDA.py | The topic modeling script |
+| utils/ | Folder containing utility script for the project |
+| utils/lda_utils.py | utility script used for data preprocessing |
+| viz/ | Folder containing output pyLDAvis graphs produced by the script |
+| viz/full_vis.html | html file of pyLDAvis graph of the full script LDA model |
+| viz/character_vis.html | html files of pyLDAvis graphs of each FRIENDS main character´s LDA model (6 files) |
+| LICENCSE| A software license defining what other users can and can't do with the source code |
+| README.md | Description of the assignment and the instructions |
+| create_lda_venv.sh | bash file for creating a virtual environmment  |
+| kill_lda_venv.sh | bash file for removing a virtual environment |
+| requirements.txt | list of python packages required to run the script |
+
+
+
+
 ## Data
 
 Data for this project consists of txt files of the Screenplay Scripts and Dialogue for each episode in the FRIENDS TV Show (228 episodes in total).
@@ -53,6 +79,7 @@ __Code parameters__
 | input_files  (input) | Directory of input files |
 | number_topics (n_topics) | Number of topics for LDA model to look for. Default = 15 |
 | threshold_value (t) | A score threshold for forming the bigram and trigram models (higher means fewer phrases). Default = 100 |
+| postags (pos) | Choose part-of-speech to train LDA model on. Allowed postags: NOUN, ADJ, VERB, ADV. Default = NOUN |
 
 
 
@@ -69,28 +96,32 @@ $ git clone https://github.com/Rutatu/cds-visual_Assignment_5.git
 $ cd cds-visual_Assignment_5
 
 #5 Create virtual environment with its dependencies and activate it
-$ bash cnn_venv.sh
-$ source ./cnn_venv/bin/activate
+$ bash create_lda_venv.sh
+$ source ./lda/bin/activate
+
+#6 Unzip the input files in a data folder
+$ cd data
+$ unzip FRIENDS_Script.zip -d FRIENDS_TV_script
 
 ``` 
 
 Run the code:
 
 ```
-#6 Navigate to the directory of the script
-$ cd src
+#7 Navigate to the directory of the script
+$ cd ../src
 
-#7 Run the code with default parameters
-$ python cnn-artists.py -trd data/Impressionist_Classifier_data/training -vald data/Impressionist_Classifier_data/validation -optim SGD
+#8 Run the code with default parameters
+$ python LDA.py -input ../data/FRIENDS_TV_script
 
-#8 Run the code with self-chosen parameters
-$ python cnn-artists.py -trd data/Impressionist_Classifier_data/training -vald data/Impressionist_Classifier_data/validation -optim Adam -lr 0.002 -ep 100
+#9 Run the code with self-chosen parameters
+$ python LDA.py -input ../data/FRIENDS_TV_script -n_top 5 -t 150 -pos ADJ
 
-#9 To remove the newly created virtual environment
-$ bash kill_cnn.sh
+#10 To remove the newly created virtual environment
+$ bash kill_lda_venv.sh
 
-#10 To find out possible optional arguments for the script
-$ python cnn-artists.py --help
+#11 To find out possible arguments for the script
+$ python LDA.py --help
 
 
  ```
@@ -159,19 +190,3 @@ However, the differences between scores are very small and, thus, it does not te
 Overall, the models perform not too badly but still far from very good. Every character has 1-2 broad topics which are more general and a lot of specific ones, which reflect the characters´ personalities very well. However, it is not always easy to prescribe them to a specific topic category and they tend to overlap. If invested more time in data cleaning and more thoughtful metrics choice, it has a potential to perform pretty well.
 
 
-## Instructions to run the code
-
-
-- Open terminal on worker02
-- Navigate to the environment where you want to clone this repository, e.g. type: cd cds-language
-- Clone the repository, type: git clone https://github.com/Rutatu/lang_analytics_-assignment5.git
-- Navigate to the newly cloned repo
-- Navigate to the data folder, type: cd data
-- create an empty folder in ´data´ folder named ´FRIENDS_TV_script´, so you can save unzipped files there, type: mkdir FRIENDS_TV_script
-- unzip the file to a newly created folder, type: unzip FRIENDS_Script.zip -d FRIENDS_TV_script
-- Navigate back to the cloned repo directory (outside ´data´ folder)
-- Create virtual environment with its dependencies, type: bash create_lda_venv.sh
-- Activate the environment, type: source ./lda/bin/activate
-- To run the code, type: python LDA.py -f data/FRIENDS_TV_script
-
-I hope it worked!
